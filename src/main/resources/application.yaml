@@ -28,6 +28,7 @@ spring:
   data.rest:
     base-path: /api
     detection-strategy: ANNOTATED
+  thymeleaf3.decoupled-logic: true
 
 ---
 #spring:
