@@ -1,3 +1,10 @@
+# -- 테스트 계정
+# -- TODO: 테스트용이지만 비밀번호가 노출된 데이터 세팅. 개선하는 것이 좋을 지 고민해 보자.
+# insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+#     ('dy', 'asdf1234', 'Dy', 'dy@mail.com', 'I am Dy.', now(), 'dy', now(), 'dy')
+# ;
+
+
 insert into article (title, content, hashtag, created_at, created_by, modified_at, modified_by) values ('Nullam varius.', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.', 'Purple', '2022-04-29 04:36:11', 'Tani', '2022-06-10 03:20:11', 'Isaiah');
 insert into article (title, content, hashtag, created_at, created_by, modified_at, modified_by) values ('Nulla facilisi.', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 'Crimson', '2022-06-27 22:11:22', 'Erroll', '2022-02-01 14:59:10', 'Edd');
 insert into article (title, content, hashtag, created_at, created_by, modified_at, modified_by) values ('Aenean fermentum.', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.', 'Crimson', '2022-03-17 19:13:56', 'Wyndham', '2021-08-13 11:13:50', 'Jermaine');
