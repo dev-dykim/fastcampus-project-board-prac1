@@ -15,10 +15,16 @@ public class ArticleCommentService {
     private final ArticleCommentService articleCommentService;
 
     @Transactional(readOnly = true)
-    public List<ArticleCommentDto> searchArticleComment(long articleId) {
+    public List<ArticleCommentDto> searchArticleComments(long articleId) {
         return List.of();
     }
 
     public void saveArticleComment(ArticleCommentDto dto) {
+    }
+
+    public void updateArticleComment(ArticleCommentDto dto) {
+    }
+
+    public void deleteArticleComment(Long articleCommentId) {
     }
 }
