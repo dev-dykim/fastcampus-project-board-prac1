@@ -37,6 +37,7 @@ class ArticleCommentServiceTest {
         // Given
         Long articleId = 1L;
         ArticleComment expected = createArticleComment("content");
+        given(articleCommentRepository.findByArticle_id(articleId)).willReturn(List.of(expected));
 
         // When
         List<ArticleCommentDto> actual = sut.searchArticleComments(articleId);
