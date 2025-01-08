@@ -1,8 +1,8 @@
 package com.fastcampus.projectboardprac1.controller;
 
 import com.fastcampus.projectboardprac1.domain.type.SearchType;
-import com.fastcampus.projectboardprac1.dto.reponse.ArticleResponse;
-import com.fastcampus.projectboardprac1.dto.reponse.ArticleWithCommentsResponse;
+import com.fastcampus.projectboardprac1.dto.response.ArticleResponse;
+import com.fastcampus.projectboardprac1.dto.response.ArticleWithCommentsResponse;
 import com.fastcampus.projectboardprac1.service.ArticleService;
 import com.fastcampus.projectboardprac1.service.PaginationService;
 import lombok.RequiredArgsConstructor;
